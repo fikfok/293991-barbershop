@@ -27,7 +27,8 @@ body {
     line-height: 1.4em;
 }
 
-.filter-section-header {
+.filter-section-header,
+.item-contents-title {
     font-size: 24px;
     line-height: 1.2em;
 }
