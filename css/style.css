@@ -103,7 +103,8 @@ body {
 }
 
 .main-footer {
-    min-height: 170px;
+    min-height: 190px;
+    padding-top: 60px;
 }
 
 .footer-contacts,
