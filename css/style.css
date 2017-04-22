@@ -38,15 +38,17 @@ body {
     margin-bottom: 50px;
 }
 
-.main-header .center-container {
-    min-height: 72px;
-    padding-top: 23px;
+.main-navigation,
+.login {
     box-sizing: border-box;
+    padding-top: 25px;  
+    min-height: 70px;     
 }
 
 .main-navigation {
     width: 780px;
     float: left;
+  
 }
 
 .login {
@@ -54,13 +56,19 @@ body {
     float: right;
 }
 
+
 .logo-container,
 .main-navigation-menu {
     float: left;
 }
 
-.main-navigation-menu li {
+.main-navigation-menu-links {
+    font-size: 0px;
+}
+
+.main-navigation-menu-links li {
     display: inline-block;
+    font-size: 14px;
 }
 
 .main-content {
@@ -72,17 +80,22 @@ body {
 }
 
 .breadcrumbs {
-    margin-bottom: 50px;
+    margin-bottom: 46px;
+}
+
+.breadcrumbs-links {
+    font-size: 0px;    
 }
 
 .breadcrumbs-links li {
     display: inline-block;
+    font-size: 14px;
 }
 
 .filter {
     float: left;
     width: 170px;
-    min-height: 592px;
+    min-height: 600px;
 }
 
 .catalog {
@@ -136,11 +149,11 @@ body {
 }
 
 .main-title-site2 {
-    margin-bottom: 22px;
+    margin-bottom: 20px;
 }
 
 .breadcrumbs-site2 {
-    margin-bottom: 54px;
+    margin-bottom: 52px;
 }
 
 .catalog-site2 {
