@@ -1,3 +1,9 @@
+* { 
+     margin: 0;
+    padding: 0;
+}
+
+html,
 body {
     font-size: 14px;
     line-height: 1.2em;
@@ -5,8 +11,6 @@ body {
     color: rgb(0, 0, 0);
     font-weight: bold;
     text-transform: uppercase;
-    margin: 0px;
-    padding: 0px;
 }
 
 .main-title {
@@ -22,16 +26,20 @@ body {
 
 /*------------------------------------------------*/
 /*Размечаю сетку*/
-.main-header {
-    min-height: 72px;
-    margin-bottom: 30px;
-    background-color: rgb(0, 0, 0);
-}
-
 .center-container {
     width: 940px;
     margin: 0 auto;
     padding: 0 10px;
+}
+
+.main-header {
+    margin-bottom: 50px;
+}
+
+.main-header .center-container {
+    min-height: 72px;
+    padding-top: 23px;
+    box-sizing: border-box;
 }
 
 .main-navigation {
@@ -54,11 +62,15 @@ body {
 }
 
 .main-content {
-    min-height: 882px;
+    min-height: 862px;
+}
+
+.main-title {
+    margin-bottom: 18px;
 }
 
 .breadcrumbs {
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
 .breadcrumbs-links li {
@@ -66,20 +78,15 @@ body {
 }
 
 .filter {
-    padding-top: 0px;
     float: left;
     width: 170px;
     min-height: 592px;
 }
 
-.filter-section {
-    margin-top: 0px; /*Вот этот момент не могу понять. При таком мргине заголовок "ПРОИЗВОДИТЕЛИ" почему-то съезжают вниз. В родительского блока padding-top = 0. Если этот маргин указать -20, то заголовок прилипает к верхней границе. Не могу понять почему надо ставить -20?*/
-}
-
 .catalog {
     float: right;
     width: 700px;
-    padding-top: 25px;
+    padding-top: 7px;
 }
 
 .catalog-item {
@@ -102,9 +109,10 @@ body {
     display: inline-block;
 }
 
-.main-footer {
+.main-footer .center-container {
     min-height: 190px;
     padding-top: 60px;
+    box-sizing: border-box;    
 }
 
 .footer-contacts,
@@ -118,15 +126,6 @@ body {
     float: right;
     width: 140px;
 }
-
-
-
-
-
-
-
-
-
 
 
 
