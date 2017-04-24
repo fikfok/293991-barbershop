@@ -45,21 +45,15 @@ body {
     min-height: 70px;     
 }
 
-.main-navigation {
-    width: 780px;
+.main-navigation,
+.logo-container,
+.main-navigation-menu {
     float: left;
   
 }
 
 .login {
-    width: 140px;
     float: right;
-}
-
-
-.logo-container,
-.main-navigation-menu {
-    float: left;
 }
 
 .main-navigation-menu-links {
@@ -107,6 +101,7 @@ body {
 .catalog-item {
     float: left;
     min-height: 286px;
+    max-width: 220px;
     margin-bottom: 20px;
 }
 
